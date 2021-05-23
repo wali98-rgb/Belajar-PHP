@@ -55,8 +55,27 @@ function tampilkan_nama(){
 Tampilkan_nama();
 
 echo "<br/>";
+echo "<br/>";
 
+$x = 5;
+
+while($x >= 1){
+    echo "dugul $x <br/>";
+    $x--;
+}
+while($x <= 5){
+    echo "pasti $x <br/>";
+    $x++;
+}
+
+echo "<br/>";
 for($x=3;$x<=8;$x++)
     echo $x;
 
+echo "<br/>";
+echo date('l, d/m/y h:i:sa');
+echo "<br/>";
+
+include('header.php');
+echo "don't forget yo Subscribe my channel!!!";
 ?>

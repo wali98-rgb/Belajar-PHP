@@ -19,7 +19,7 @@ tampilkan_nama();
 echo "<br/>";
 
 $angka = 9;
-$x = 1;
+$x = 6;
 
 switch ($angka) {
     case 1:
@@ -47,7 +47,7 @@ switch ($angka) {
 
 echo "<br/>";
 
-while($x <= 4){
+while($x <= 9){
     echo "Nomer $x <br>";
     $x++;
 }
@@ -95,5 +95,7 @@ $buah = array(
 
 echo $buah['jeruk'];
 echo "<br/>";
-
+echo date('l, d/m/y h:i:sa');
+echo "<br/>";
+echo date('D/M-Y H:i:sa');
 ?>
