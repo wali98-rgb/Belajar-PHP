@@ -77,5 +77,7 @@ echo date('l, d/m/y h:i:sa');
 echo "<br/>";
 
 include('header.php');
-echo "don't forget yo Subscribe my channel!!!";
+echo "don't forget to Subscribe my channel!!!";
+echo "<br/>";
+
 ?>

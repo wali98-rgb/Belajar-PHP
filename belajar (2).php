@@ -72,6 +72,11 @@ echo "<br/>";
 for($x=0;$x<count($buah);$x++){
 	echo $buah[$x]."<br/>";
 }
+echo "<br/>";
+
+foreach($buah as $d){
+    echo $d. "<br/>";
+}
 
 $buah['mangga'] = "Warnanya kuning ke merahan";
 $buah['jeruk'] = "Bulat buahnya";
@@ -98,4 +103,40 @@ echo "<br/>";
 echo date('l, d/m/y h:i:sa');
 echo "<br/>";
 echo date('D/M-Y H:i:sa');
+echo "<br/>";
+include("indo.php");
+echo "dkauedbbqekfu";
+echo "<br/>";
+
+$a = 4;
+$b = 19;
+
+echo $a + $b;
+
+echo "<br/>";
+
+$kalimat = "Bismillah kunci sukses sedang diraih";
+$data = explode(" " , $kalimat);
+print_r($data);
+
+echo "<br/>";
+echo "<br/>";
+
+echo " Data 1 = " . $data [0];
+echo "<br/>";
+echo " Data 2 = " . $data [1];
+echo "<br/>";
+echo " Data 3 = " . $data [2];
+echo "<br/>";
+echo " Data 4 = " . $data [3];
+echo "<br/>";
+echo " Data 5 = " . $data [4];
+echo "<br/>";
+
+echo "<br/>";
+echo "<br/>";
+echo "<h3>Menggunakan sistem implode.</h3>";
+echo "<br/>";
+
+echo implode(" " , $data);
 ?>
