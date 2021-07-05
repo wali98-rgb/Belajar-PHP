@@ -139,4 +139,7 @@ echo "<h3>Menggunakan sistem implode.</h3>";
 echo "<br/>";
 
 echo implode(" " , $data);
+
+echo "<br/>";
+echo base64_encode(($teman));
 ?>
